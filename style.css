@@ -1,0 +1,19 @@
+body {
+    background-image: url('https://wallpaperaccess.com/full/2435550.png');
+}
+
+canvas {
+    border: 3px dashed black ;
+    animation-name: change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes change{
+    from{
+        box-shadow: 1px 1px 38px blue;
+    }
+    to{
+        box-shadow: 1px 1px 38px red;
+    }
+}
